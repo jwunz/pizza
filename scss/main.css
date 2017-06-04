@@ -26,6 +26,17 @@ row {
 .column {
   @extends vertflex; }
 
+.toppings_image {
+  width: 125px;
+  min-height: 125px;
+  max-height: 125px; }
+
+.topping {
+  padding: 5px; }
+
+.all_toppings {
+  margin-top: 30%; }
+
 .bordered {
   border: 1px black solid; }
 
