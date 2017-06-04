@@ -1,0 +1,69 @@
+@import '_flex';
+@import '_row';
+@import '_column';
+
+.bordered{
+    border: 1px black solid;
+}
+
+.body_container{
+    min-height: 800px;
+    max-height: 800px;
+    width: 1220px;
+    margin: 100px 200px 100px 200px;
+}
+
+.pizza_view{
+    min-height: 750px;
+    max-height: 750px;
+    margin: 20px 0px 20px 20px;
+    width: 750px;
+    float: left;
+}
+
+.right_column_view{
+    min-height: 750px;
+    max-height: 750px;
+    margin: 20px 20px 20px 0px;
+    width: 400px;
+    float: right;
+}
+
+.default_pizza{
+    display: block;
+    width: 500px;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.button{
+    display: table;
+    padding: 5px;
+}
+
+.pizza_view_button{
+    font-size: 1.2em;
+    margin: 45px auto 45px auto;
+}
+
+.toppings_image{
+    width: 125px;
+    min-height: 125px;
+    max-height: 125px;
+}
+
+.topping{
+    padding: 5px;
+}
+
+.all_toppings{
+    margin-top: 30%;
+}
+
+.topping_label{
+    
+}

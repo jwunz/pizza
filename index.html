@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <link href="scss/main.css" type="text/css" rel="stylesheet">
+    <title>Pizza Creator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>  
 </head>
 
 <body>
-
+    <div class="body_container bordered" ng-app="myApp">
+        <div class="pizza_view bordered column">
+            <div class="button pizza_view_button bordered center">Click to Customize!</div>
+            <img class="default_pizza bordered center">
+            <div class="button pizza_view_button bordered center">Order Now!</div>
+        </div>
+        <section ng-controller="mainController" class="bordered right_column_view">
+            <div ng-view class="viewContent"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
