@@ -3,7 +3,32 @@
         <div class="topping topping1">
             <p class="topping_label">Pepperoni</p>
             <img class="toppings_image">
+            <form action="">
+                <div class="radiogroup">
+                    <label class=label1>
+                        <input type="radio" name="orientation" value="left" id="radio1" 
+                               onclick="radioclicked('radio1', 'radio1image', '../images/radioleft')"/>
+                        <img id=radio1image src="../images/radioleft.png">
+                        
+                    </label>
+                    <label class=label2>
+                        <input type="radio" name="orientation" value="both" id="radio2"
+                               onclick="radioclicked('radio2', 'radio2image', '../images/radioboth')"/>
+                        <img id=radio2image src="../images/radiobothfilled.png">
+                    </label>
+                    <label class=label3>
+                        <input type="radio" name="orientation" value="right" id="radio3"
+                               onclick="radioclicked('radio3', 'radio3image', '../images/radioright')"/>
+                        <img id=radio3image src="../images/radioright.png">
+                    </label>
+                    <div>
+                        <input type="checkbox" id="extras" name="extras" value="x2" onclick="toggleExtras('extras')">
+                        <label for="extras"><img id="extrasImage" src="../images/extras.png"></label>
+                    </div>
+                </div>
+            </form>
         </div>
+        
         <div class="topping topping1">
             <p class="topping_label">Ham</p>
             <img class="toppings_image">
