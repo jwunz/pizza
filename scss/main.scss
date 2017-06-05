@@ -2,6 +2,8 @@
 @import '_row';
 @import '_column';
 @import '_toppings';
+@import '_radiobuttons';
+@import '_checkbox';
 
 .bordered{
     border: 1px black solid;
@@ -11,7 +13,7 @@
     min-height: 800px;
     max-height: 800px;
     width: 1220px;
-    margin: 100px 200px 100px 200px;
+    margin: 100px auto;
 }
 
 .pizza_view{
@@ -49,22 +51,4 @@
 .pizza_view_button{
     font-size: 1.2em;
     margin: 45px auto 45px auto;
-}
-
-.toppings_image{
-    width: 125px;
-    min-height: 125px;
-    max-height: 125px;
-}
-
-.topping{
-    padding: 5px;
-}
-
-.all_toppings{
-    margin-top: 30%;
-}
-
-.topping_label{
-    
 }
